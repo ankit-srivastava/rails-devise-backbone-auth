@@ -1,0 +1,15 @@
+Rails 3 / Devise / Backbone.js Auth Demo
+
+This is a quick application (only user sessions implemented as of 05/20, more coming soon) built as a template for further expansion and easy setup for future projects.
+
+rails new
+(update gem file to include devise, backbone-on-rails, etc...)
+bundle install
+
+rails g backbone:install
+rails g devise:install
+(update devise initializer)
+
+rake db:migrate
+
+build app...
